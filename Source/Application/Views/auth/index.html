@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Teste do josé - Dentro de Source</h1>
+        <form action="{{ url_for('auth.login') }}" method="post">
+
+            <label>Username</label>
+            <input name="username" value=""/><br>
+
+                 <label>Password</label>
+            <input name="password" value=""/><br>
+
+            <button type="submit">Login</button>
+        </form>
+</body>
+</html>
